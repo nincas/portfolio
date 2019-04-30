@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+
+.links>a {
+    flex: auto;
+    padding-right: 30px;
+    font-size: 24px !important;
+    padding: 10px;
+}
+
+.brand-container {
+    border-bottom: 5px solid transparent;
+}
+
+.brand-container:hover {
+    border-bottom: 5px solid darkturquoise;
+    background-color: transparent;
+    animation: colorChange 800ms ease;
+    color: white;
+}
+
+@keyframes colorChange {
+    from {
+        width: 1%;
+    }
+
+    to {
+        width: 10.5%;
+    }
+}
+
+.brand {
+    cursor: pointer;
+
+}
+
+body {
+    margin: 0;
+    background-color: rgb(32, 32, 32);
+}
+
+.navbar {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(32, 32, 32);
+    padding: 10px;
+    color: white;
+    font-size: 45px;
+    font-family: 'VT323', monospace;
+}
